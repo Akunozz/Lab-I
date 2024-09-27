@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int calculo_imc(int p, int a){
-    return 10000 * p / (a * a);
+    return p / (a * a);
 }
 
 int main (){
-    int peso, altura;
-    int imc;
+    float peso, altura;
+    float imc;
     printf("Digite a altura(em cm): ");
-    scanf("%d", &altura);
+    scanf("%f", &altura);
     printf("Digite o peso(em kg): ");
-    scanf("%d", &peso);
+    scanf("%f", &peso);
     imc = calculo_imc(peso, altura);
-    printf("O imc eh: %d.%d\n", imc/10, imc%10);
+    printf("O imc eh: %f.2", imc);
 }
