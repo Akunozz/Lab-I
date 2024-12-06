@@ -5,7 +5,7 @@
 #include "terminal.h"
 #define MAX_RAINHAS 50
 
-
+    
 
 void atualiza_tela() {
     t_atualiza();

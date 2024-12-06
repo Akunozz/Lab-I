@@ -1,0 +1,2 @@
+# comando para compilar o programa exemplo
+gcc -Wall -o t4 t4.c janela.c -lallegro_font -lallegro_color -lallegro_ttf -lallegro_primitives -lallegro
