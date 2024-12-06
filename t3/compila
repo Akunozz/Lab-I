@@ -1,2 +1,2 @@
 # comando para compilar o programa exemplo
-gcc -Wall -o exemplo_janela exemplo_janela.c janela.c -lallegro_font -lallegro_color -lallegro_ttf -lallegro_primitives -lallegro
+gcc -Wall -o l1-t3-BrenoRosa l1-t3-BrenoRosa.c janela.c -lallegro_font -lallegro_color -lallegro_ttf -lallegro_primitives -lallegro
